@@ -1,0 +1,67 @@
+html {
+    height: 100%
+}
+body{
+ 
+  background-image: url("https://images.wallpaperscraft.com/image/single/cafe_chairs_tables_lighting_comfort_glass_39210_1600x900.jpg");
+  background-repeat: no-repeat;
+  background-size:auto;
+  
+}
+.tagline{
+  margin-top:-20px;
+  font-size:12px;
+  
+}
+h1, h3{
+  font-family:impact;
+  color: #297373;
+}
+main{
+  padding:20px;
+}
+.menu{
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+  background-color: #E6E6E6;
+  padding: 20px;
+  max-width:350px;
+}
+.order p{
+  display: inline-block;
+  margin-top:2px;
+  margin-bottom:5px;
+  font-size:14px;
+}
+.item {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+footer{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  margin-top:-25px;
+  padding:10px;
+  color:#E6E6E6;
+  font-size:12px;
+}
+.icons{
+  margin-top:-14px;
+  margin-bottom:14px;
+  height:50px;
+  width:50px;
+}
+.divider{
+  margin-top:20px;
+  margin-bottom:20px;
+  background-color: #297373;
+  border-color:#297373;
+  height:1px;
+}

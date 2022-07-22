@@ -1,6 +1,10 @@
 html {
     height: 100%
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body{
  
   background-image: url("C:/Users/Almas/Desktop/Ruskin-s-Cafe/Assets/Ruskin's.png");
@@ -104,3 +108,60 @@ navbar{
   background-color: #E6E6E6;
   color:#297373;
 }
+
+
+.home-images{
+  height:50%;
+  width:50%;
+  padding-left: 25%;
+  padding-right: 25%;
+  display: block;
+}
+.body img{
+  text-align: center;
+}
+
+
+
+/* page fold */
+.fold::before{
+  content:"";
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  border-style: solid;
+  border-width: 0 50px 50px 0;
+  border-color: #ddd #344;
+  transition: all ease 0.5s;
+}
+.fold:hover::before{
+  border-width: 0 150px 150px 0;
+  border-color: #eee #344
+}
+
+/* Membership page css */
+label{
+  display: block;
+  margin: 0.5rem 0;
+  color:#E6E6E6;
+  padding-bottom: 5px;
+}
+fieldset{
+  max-width:500px;
+  border:none;
+  background-color: #297373;
+  margin-right:auto;
+  margin-left:auto;
+}
+form{
+  margin: 0 auto;
+}
+input{
+  color: #E6E6E6;
+  width: 100%;
+  background-color: #297373cc;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+  height: 2em;
+}
+

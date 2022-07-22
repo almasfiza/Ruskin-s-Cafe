@@ -3,8 +3,7 @@ html {
 }
 body{
  
-  background-image: url("https://images.wallpaperscraft.com/image/single/cafe_chairs_tables_lighting_comfort_glass_39210_1600x900.jpg");
-  background-repeat: no-repeat;
+  background-image: url("C:/Users/Almas/Desktop/Ruskin-s-Cafe/Assets/Ruskin's.png");
   background-size:auto;
   
 }
@@ -20,6 +19,20 @@ h1, h3{
 main{
   padding:20px;
 }
+.logo{
+  height:200px;
+  width:200px;
+}
+.box{
+  margin-right:auto;
+  margin-left:auto;
+  text-align:left;
+  background-color: #E6E6E6;
+  padding: 20px 20px 20px 20px;
+  max-width:700px;
+
+}
+
 .menu{
   margin-right:auto;
   margin-left:auto;
@@ -64,4 +77,30 @@ footer{
   background-color: #297373;
   border-color:#297373;
   height:1px;
+}
+
+/*navbar css*/
+navbar{
+  float: right;
+}
+.nav{
+  background-color:  #297373;
+  color: #E6E6E6;
+  padding: 10px;
+  margin: 20px auto;
+  text-align:center;
+  border-radius: 2px;
+  box-shadow:3px 3px #297373e2;
+}
+.nav a{
+  color: #E6E6E6;
+  text-decoration: none; 
+  text-align: center;
+  font-size: 16px;
+  display: inline;
+  padding: 12px;
+}
+.nav a:hover{
+  background-color: #E6E6E6;
+  color:#297373;
 }

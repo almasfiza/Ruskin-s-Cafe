@@ -17,27 +17,51 @@
     <p class="tagline"> We are here for your coffee breaks! Since 2015. </p>
    
     <hr class="divider">
-
-    <p>We also have a membership program which gives you access to lucrative cashbacks on orders and vouchers with exciting deals! With out membership plan you can also be up-to-date with events and join them for free!</p>
     <img class="home-images" src="https://media.istockphoto.com/photos/african-american-woman-using-mobile-phone-watching-video-online-at-picture-id1325564601?b=1&k=20&m=1325564601&s=170667a&w=0&h=JKkVcMVH2W_jJELdiXr7KaE-viz-5I2LCqpqpy99o2U=">
+    <p>We also have a membership program which gives you access to lucrative cashbacks on orders and vouchers with exciting deals! With out membership plan you can also be up-to-date with events and join them for free!</p>
+    <h3>Our Plans</h3>
+    <div class="plan-details">
+   
+      <div class="daily-plan">
+        <h4>Daily Plan</h4>
+        5 percent off on every order and one free coffee per week. Free entry for all community activities on weekends!
+        <h1 class="plan-price">$4.00 per year</h1>
+      </div>
+      <div class="community-plan">
+        <h4>Community Plan</h4>
+        50 percent off on community activites on weekend and 5 percent off on every 5th order!
+        <h1 class="plan-price">$8.00 per year</h1>
+      </div>
+    </div>
     <section class="formarea">
         <form>
             <h3>Become a member now!</h3>
             <fieldset>
 
-                <label> First Name: <input /></label>
-                <label> Last Name: <input /></label>
-                <label> Email: <input /></label>
-                <label> Contact: <input /></label>
+                <label> First Name: <input type="text" required name="fname" /></label>
+                <label> Last Name: <input type="text" required name="lname" /></label>
+                <label> Email: <input type="email" required name="email" /></label>
+                <label> Contact: <input type="text" required name="contact" /></label>
                
             </fieldset>
 
             <fieldset>
-                <label> <input type="radio"/>Daily Customer Plan</label>
-                <label> <input type="radio"/>Community Plan</label>
-                <label> How did you find about the membership plan? </label> 
+                <article class="plan"><p style="color:#E6E6E6">Choose a plan type!</p> 
+                <label> <input class="inline" name="plan-type" type="radio" required/>Daily Customer Plan</label>
+                <label> <input class="inline" name="plan-type" type="radio" required/>Community Plan</label>
+              </article>
+                <label> How did you find about the membership plan? 
+                  <select name="referrer">
+                    <option value="">Select one</option>
+                    <option value="1">Cafe pamphlet</option>
+                    <option value="2">Friends</option>
+                    <option value="3">Instagram page</option>
+                    <option value="4">Other</option>
+                  </select>
+                </label> 
                  
             </fieldset>
+            <button class="button">Register me!</button>
         </form>
     </section>
     

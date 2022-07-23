@@ -152,6 +152,7 @@ fieldset{
   background-color: #297373;
   margin-right:auto;
   margin-left:auto;
+ 
 }
 form{
   margin: 0 auto;
@@ -164,4 +165,70 @@ input{
   border-radius: 5px;
   height: 2em;
 }
+.inline{
+  width: unset;
+  vertical-align: middle;
+}
+.plan{
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 541px){
+  .plan{
+    display:flex;
+    flex-direction: column;
+  }
+}
 
+/* styling the button for registration form */
+.button{
+  background-color: #297373;
+  color:#E6E6E6;
+  border: none;
+  padding: 0.5em;
+  border-radius: 5px 10px 5px 10px;
+  margin: 20px auto;
+  display: block;
+}
+.button:hover{
+  background-color: #E6E6E6;
+  color:#297373;
+  border: 2px solid #297373;
+  cursor: pointer;
+
+}
+
+/*plan details styling */
+.plan-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  margin-top: -40px;
+  margin-bottom: 40px;
+}
+.plan-details div{
+  width: 50%;
+  height: 150px;
+  margin: 8px;
+  padding: 20px;
+}
+
+@media (max-width: 500px){
+  .plan-details{
+    display:flex;
+    flex-direction: column;
+  }
+  .plan-details div{
+    width: 100%;
+  }
+}
+.plan-price{
+  text-align: center;
+}
+.plan-price:hover{
+  border: 2px solid #297373;
+  border-radius: 20px;
+  cursor: default;
+}

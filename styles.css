@@ -83,7 +83,10 @@ footer{
   padding:10px;
   color:#E6E6E6;
   background-color: #297373;
-  font-size:12px;
+  font-size:12px;  
+  bottom: 0;
+  position:fixed;
+  width:100%;
 }
 .icons{
   margin-top:-14px;
@@ -248,3 +251,5 @@ input{
   border-radius: 20px;
   cursor: default;
 }
+
+/*styling the events page */

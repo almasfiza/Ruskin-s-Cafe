@@ -36,15 +36,30 @@ main{
   max-width:700px;
 
 }
-
+#gallery{
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
 .menu{
-  margin-right:auto;
-  margin-left:auto;
+  width: 50%;
+  padding: 10px 20px;
   text-align:center;
   background-color: #E6E6E6;
-  padding: 20px;
-  max-width:350px;
+  max-width:400px;
+  margin: 10px 10px 10px 10px;
 }
+@media (max-width:800px){
+  .menu{
+    width:100%;
+  }
+}
+
+
 .order p{
   display: inline-block;
   margin-top:2px;
@@ -67,6 +82,7 @@ footer{
   margin-top:-25px;
   padding:10px;
   color:#E6E6E6;
+  background-color: #297373;
   font-size:12px;
 }
 .icons{
